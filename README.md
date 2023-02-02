@@ -1,5 +1,9 @@
 # coffee-quality
-## purpose
-Coffee quality prediction for educational purposes
-## data source
+## Цель
+Предсказание качества кофе
+## Датасет
 https://www.kaggle.com/datasets/volpatto/coffee-quality-database-from-cqi?resource=download
+Датасет представляет собой данные о качестве кофе разных производителей, собранные Coffee Institute (https://database.coffeeinstitute.org/). Для каждой строки приведены в том числе оценки аромата, кислотности, сладости и других параметров кофе, а также общие оценки, данные кофейными дегустаторами.
+## Формулировка задачи
+Задача: предсказание качества кофе по его происхождению, влажности, количеству дефектов и другим параметрам
+Тип задачи: обучение с учителем, регрессия
